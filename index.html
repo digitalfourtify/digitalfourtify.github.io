@@ -3,116 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rudra Makwana</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rudra Makwana - UI/UX Designer & Flutter Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script defer src="js/main.js"></script>
 </head>
 <body>
-    //
+
+    <!-- Header -->
     <header>
-        <!-- <h1>Welcome to My Personal Website</h1> -->
-        <nav>
-            <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1>Rudra Makwana</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="cta-button">Hire Me</a>
+            </nav>
+        </div>
     </header>
-    
-    //
 
-    
-    <main>
-        <section id="home">
-            <h2>Hello, I'm Rudra Makwana</h2>
-            <p>I am a UI/UX Designer and Flutter Developer passionate about creating intuitive user experiences and building dynamic mobile applications.</p>
-            <!-- <img src=image\ProfilePhoto.jpg  /> -->
-        </section>
+    <!-- Hero Section with Video Background -->
+    <section id="hero">
+        <video autoplay muted loop id="hero-video">
+            <source src="image/video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Hi, I'm Rudra Makwana</h1>
+            <p>UI/UX Designer & Flutter Developer</p>
+            <a href="portfolio.html" class="cta-button">View My Work</a>
+        </div>
+    </section>
 
-        <!-- <section id="portfolio">
-            <h2>My Portfolio</h2>
-            <div class="project">
-                <h3>Project Title 1</h3>
-                <img src="project1-thumbnail.jpg" alt="Project 1">
-                <p>Brief description of the project.</p>
-                <a href="link-to-project1" target="_blank">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Project Title 2</h3>
-                <img src="project2-thumbnail.jpg" alt="Project 2">
-                <p>Brief description of the project.</p>
-                <a href="link-to-project2" target="_blank">View Project</a>
-            </div>
-            Add more projects as needed -->
-        </section>
-
-        <!-- <section id="about">
+    <!-- Introduction Section -->
+    <section id="about-preview">
+        <div class="container">
             <h2>About Me</h2>
-            <p>I am [Your Name], a [Your Profession] with a passion for [Your Interests].</p>
-            <h3>Skills</h3>
-            <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-                Add more skills as needed
-            </ul>
-        </section> -->
+            <p>I'm a passionate UI/UX Designer and Flutter Developer with over [X years] of experience. I create engaging digital experiences and develop scalable mobile applications. <a href="about.html">Learn More</a></p>
+        </div>
+    </section>
 
-        <!-- <section id="resume">
-            <h2>Resume</h2>
-            <p>Download my resume <a href="your-resume.pdf" target="_blank">here</a>.</p>
-            <h3>Work Experience</h3>
-            <p>Job Title at Company (Year - Year)</p>
-            <p>Job Title at Company (Year - Year)</p>
-            <h3>Education</h3>
-            <p>Degree at University (Year)</p>
-        </section> -->
-<!-- 
-        <section id="blog">
-            <h2>Blog</h2>
-            <article>
-                <h3><a href="link-to-blog-post1">Blog Post Title 1</a></h3>
-                <p>Snippet of the blog post...</p>
-            </article>
-            <article>
-                <h3><a href="link-to-blog-post2">Blog Post Title 2</a></h3>
-                <p>Snippet of the blog post...</p>
-            </article>
-            Add more blog posts as needed
-        </section> -->
+    <!-- Portfolio Preview Section -->
+    <section id="portfolio-preview">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <img src="image/project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="portfolio.html">View More</a>
+                </div>
+                <!-- Additional projects here -->
+            </div>
+        </div>
+    </section>
 
-        <!-- <section id="contact">
-            <h2>Contact Me</h2>
-            <form id="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-            <h3>Follow me on:</h3>
-            <ul>
-                <li><a href="your-linkedin" target="_blank">LinkedIn</a></li>
-                <li><a href="your-github" target="_blank">GitHub</a></li>
-                Add more social media links
-            </ul>
-        </section>
-    </main> -->
+    <!-- Services Preview Section -->
+    <section id="services-preview" class="light-bg">
+        <div class="container">
+            <h2>Services I Provide</h2>
+            <p>I offer a range of services, including UI/UX design, cross-platform app development using Flutter, and front-end web development. <a href="services.html">See More</a></p>
+        </div>
+    </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"Rudra has an amazing ability to translate user needs into intuitive, beautiful designs. Working with him has been a great experience!"</p>
+                    <p><strong>- Client Name</strong></p>
+                </div>
+                <!-- More testimonials -->
+            </div>
+        </div>
+    </section>
 
+    <!-- Call to Action Section -->
+    <section id="cta">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>Looking to create a stunning design or develop a custom app? I’d love to hear from you. Reach out and let’s discuss your project.</p>
+            <a href="contact.html" class="cta-button">Contact Me</a>
+        </div>
+    </section>
 
-
-
-
-
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Rudra Makwana. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+                <a href="https://github.com/yourprofile">GitHub</a>
+                <!-- More links if needed -->
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
