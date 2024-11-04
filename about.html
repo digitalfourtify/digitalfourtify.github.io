@@ -3,54 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Rudra Makwana</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
+    <!-- Navbar -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Rudra Makwana</h1>
-            </div>
+        <div class="navbar">
+            <div class="logo">Digital Application Studio</div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about-page">
-        <div class="container">
-            <h2>Who I Am</h2>
-            <p>
-                I am Rudra Makwana, a UI/UX Designer and Flutter Developer with [X years] of experience. My passion is creating meaningful and intuitive digital experiences through design and development.
-            </p>
-            <h3>Experience & Expertise</h3>
-            <ul>
-                <li><strong>UI/UX Design:</strong> Crafting user-centered interfaces that are both functional and visually appealing.</li>
-                <li><strong>Flutter Development:</strong> Building scalable cross-platform mobile apps with seamless performance.</li>
-                <li><strong>Front-End Web Development:</strong> Responsive websites using HTML, CSS, and JavaScript.</li>
-            </ul>
-            <p>
-                I have worked on various projects, from small business websites to large-scale e-commerce platforms, ensuring high standards of user experience.
-            </p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hi, I'm Rudra Makwana</h1>
+        <p>UI/UX Designer & Flutter Developer</p>
+        <div class="buttons">
+            <a href="#contact" class="btn hire-me">Hire Me</a>
+            <a href="#portfolio" class="btn view-work">View My Work</a>
         </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I'm a passionate UI/UX Designer and Flutter Developer with years of design experience, creating engaging digital experiences and intuitive scalable mobile applications.</p>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="portfolio" class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Calculation App</h3>
+                <p>This app is perfect for college students and professionals, helping them solve complex calculations easily with a user-friendly interface.</p>
+            </div>
+            <div class="project">
+                <h3>Calculation App</h3>
+                <p>This app offers detailed solutions for each calculation, helps with quick calculations, and has an accessible, user-friendly interface.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>Services I Provide</h2>
+        <p>I offer a range of services, including UI/UX design, cross-platform app development using Flutter, and front-end web development.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Let's Work Together</h2>
+        <p>Looking to create something unique or improve an existing design? Reach out and let's discuss your project.</p>
+        <a href="#contact-form" class="btn contact-me">Contact Me</a>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Rudra Makwana. All rights reserved.</p>
+        <p>&copy; 2024 Digital Application Studio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
