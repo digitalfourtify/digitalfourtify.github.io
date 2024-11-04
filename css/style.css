@@ -49,6 +49,13 @@ body {
     margin: 1em 0;
 }
 
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
 .buttons {
     margin-top: 1.5em;
 }
@@ -67,9 +74,10 @@ body {
     text-align: center;
 }
 
-h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+.about-image, .services-image {
+    width: 100px;
+    height: auto;
+    margin-top: 1em;
 }
 
 .projects {
@@ -83,6 +91,13 @@ h2 {
     background-color: #b3e0ff;
     padding: 1em;
     width: 300px;
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
     border-radius: 8px;
 }
 
