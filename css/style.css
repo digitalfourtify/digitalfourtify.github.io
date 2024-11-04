@@ -10,8 +10,9 @@
 body {
     background-color: #e6f7ff;
     color: #333;
-    background-image: url("images/background-pattern.png"); /* Replace with your background image path */
-    background-size: cover;
+    background-image: url("image\Main Background.png"); /* Replace with your background pattern */
+    background-size: 150px 150px;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -40,7 +41,10 @@ body {
 .hero {
     text-align: center;
     padding: 5em 2em;
-    background-color: rgba(204, 231, 255, 0.9);
+    background-color: #cce7ff;
+    position: relative;
+    border-radius: 8px;
+    margin: 2em;
 }
 
 .hero-content {
@@ -62,6 +66,7 @@ body {
     height: auto;
     border-radius: 50%;
     margin-top: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .buttons {
@@ -69,17 +74,33 @@ body {
 }
 
 .btn {
-    background-color: #003366;
-    color: white;
     padding: 0.8em 1.5em;
-    text-decoration: none;
     border-radius: 5px;
-    margin: 0 0.5em;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #002244;
+.hire-me {
+    background-color: #004080;
+    color: white;
+    border: 2px solid #004080;
+}
+
+.hire-me:hover {
+    background-color: white;
+    color: #004080;
+}
+
+.view-work {
+    background-color: white;
+    color: #004080;
+    border: 2px solid #004080;
+}
+
+.view-work:hover {
+    background-color: #004080;
+    color: white;
 }
 
 .about-section, .projects-section, .services-section, .contact-section {
@@ -109,6 +130,7 @@ body {
     width: 300px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .project img {
